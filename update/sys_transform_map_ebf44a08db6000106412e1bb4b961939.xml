@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Saved Albums Transform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	if(source.release_date_precision == 'day'){
+	var date = new GlideDate();
+	date.setDisplayValue(source.getValue('release_date'));
+	target.release_date = date;
+	}
+	else{
+		target.release_date = '';
+	}
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_8032_spotify_saved_albums_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-12 17:11:36</sys_created_on>
+        <sys_id>ebf44a08db6000106412e1bb4b961939</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Saved Albums Transform</sys_name>
+        <sys_package display_value="Spotify" source="x_8032_spotify">695e6d04db2000106412e1bb4b9619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spotify">695e6d04db2000106412e1bb4b9619a5</sys_scope>
+        <sys_update_name>sys_transform_map_ebf44a08db6000106412e1bb4b961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-12 17:48:34</sys_updated_on>
+        <target_table>x_8032_spotify_saved_albums</target_table>
+    </sys_transform_map>
+</record_update>

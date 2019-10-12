@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>offset</name>
+        <rest_message_function display_value="Get Saved Albums">060371c4db2000106412e1bb4b9619b8</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-12 17:34:03</sys_created_on>
+        <sys_id>624ace88db6000106412e1bb4b9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>offset</sys_name>
+        <sys_package display_value="Spotify" source="x_8032_spotify">695e6d04db2000106412e1bb4b9619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spotify">695e6d04db2000106412e1bb4b9619a5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_624ace88db6000106412e1bb4b9619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-12 17:34:14</sys_updated_on>
+        <type>string</type>
+        <value>20</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

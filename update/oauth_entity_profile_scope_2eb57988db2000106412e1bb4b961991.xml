@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Spotify Authorization Code">e80fa184db2000106412e1bb4b961920</oauth_entity_profile>
+        <oauth_entity_scope display_value="playlist-read-private">eb443948db2000106412e1bb4b96194a</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-12 16:06:34</sys_created_on>
+        <sys_id>2eb57988db2000106412e1bb4b961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e80fa184db2000106412e1bb4b961920</sys_name>
+        <sys_package display_value="Spotify" source="x_8032_spotify">695e6d04db2000106412e1bb4b9619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spotify">695e6d04db2000106412e1bb4b9619a5</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_2eb57988db2000106412e1bb4b961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-12 16:06:34</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>

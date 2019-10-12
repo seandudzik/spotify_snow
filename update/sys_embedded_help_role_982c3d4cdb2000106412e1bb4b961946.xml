@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_8032_spotify.admin" name="x_8032_spotify.admin">521cbd40db6000106412e1bb4b96197e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-12 16:32:12</sys_created_on>
+        <sys_id>982c3d4cdb2000106412e1bb4b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>521cbd40db6000106412e1bb4b96197e</sys_name>
+        <sys_package display_value="Spotify" source="x_8032_spotify">695e6d04db2000106412e1bb4b9619a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Spotify">695e6d04db2000106412e1bb4b9619a5</sys_scope>
+        <sys_update_name>sys_embedded_help_role_982c3d4cdb2000106412e1bb4b961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-12 16:32:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

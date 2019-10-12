@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Saved Albums" max_length="40" name="x_8032_spotify_saved_albums" type="collection">
+        <element label="Album Name" max_length="200" name="album_name" type="string"/>
+        <element label="Album Type" max_length="200" name="album_type" type="string"/>
+        <element label="Artist" max_length="200" name="artist" type="string"/>
+        <element label="ID" max_length="200" name="id" type="string"/>
+        <element label="Image" max_length="200" name="image" type="url"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+    </element>
+</database>
